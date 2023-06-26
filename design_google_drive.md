@@ -100,3 +100,4 @@ All of the Get, Rename, Move, and Delete operations atomically change the metada
 
 8. System Diagram
 
+![google-drive-system-diagram](google-drive-system-diagram.svg)

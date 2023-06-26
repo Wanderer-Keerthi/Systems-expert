@@ -102,3 +102,4 @@ Of note is that we don't want any caching done at our API servers, because other
 
 8. System Diagram
 
+![airbnb-system-diagram](airbnb-system-diagram.svg)

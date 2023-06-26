@@ -83,3 +83,4 @@ Several open-source technologies from big companies like Uber and Confluent are 
 
 9. System Diagram
 
+![facebook-system-diagram](facebook-system-diagram.svg)

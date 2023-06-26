@@ -103,3 +103,4 @@ Lastly, we can have some logging and monitoring in our system, especially for ru
 
 12. System Diagram
 
+![algoexpert-system-diagram](algoexpert-system-diagram.svg)

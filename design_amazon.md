@@ -108,3 +108,5 @@ In order to know which warehouses have what items and how many, the order-assign
 When warehouses get new item stock, lose item stock for whatever reason, or physically ship their assigned orders, they'll update the relevant physicalStock values in the warehouse_stock table. If they get new item stock or lose item stock, they'll also write to the aggregated_stock table (they don't need to do this when shipping assigned orders, since the aggregated_stock table already gets updated by the checkout process on the user side of things).
 
 7. System Diagram
+
+![amazon-system-diagram](amazon-system-diagram.svg)

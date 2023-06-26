@@ -129,3 +129,4 @@ Our Reduce functions could return many different outputs. They could return k/v 
 
 9. System Diagram
 
+![netflix-system-diagram](netflix-system-diagram.svg)

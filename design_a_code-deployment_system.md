@@ -118,4 +118,4 @@ Machines in the clusters/regions will be polling the relevant regional K-V store
 
 14. System Diagram
 
-
+![code-deployment-system-diagram](code-deployment-system-diagram.svg)

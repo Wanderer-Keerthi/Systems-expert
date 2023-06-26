@@ -178,3 +178,5 @@ Below is some pseudo code for the exchange callback:
     }
 
 8. System Diagram
+
+![stockbroker-system-diagram](stockbroker-system-diagram.svg)
