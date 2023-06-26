@@ -1,4 +1,5 @@
 1. Gathering System Requirements
+
 As with any systems design interview question, the first thing that we want to do is to gather system requirements; we need to figure out what system we're building exactly.
 
 We're designing the core system behind Tinder, which allows users to create a profile and swipe through a seemingly endless deck of potential matches. Users can also super-like potential matches, putting themselves at the top of the other users' decks, and they can undo their most recent swipe if it was a left swipe. Users don't have any limitations on the number of swipes, Super Likes, and Undos that they can do per day.
