@@ -55,29 +55,29 @@ Orders
 
 This table will store all of the orders on Amazon, with each row representing an order.
 
-orderId: uuid	customerId: uuid	orderStatus: enum	items: []{itemId, quantity}     price: integer      paymentInfo: PaymentInfo	shippingAddress: string	timestamp: datetime     other...
-...         	...	                ...	                ...	                            ...	                ...	                        ...	                             ...	                 ...
+    orderId: uuid	customerId: uuid	orderStatus: enum	items: []{itemId, quantity}     price: integer      paymentInfo: PaymentInfo	shippingAddress: string	timestamp: datetime     other...
+    ...         	...	                ...	                ...	                            ...	                ...	                        ...	           ...	                 ...
 
 Aggregated Stock
 
 This table will store all of the item stocks on Amazon that are relevant to users, with each row representing an item. See the Core User Functionality section for more details.
 
-itemId: uuid	stock: integer
-...	            ...
+    itemId: uuid	stock: integer
+    ...	            ...
 
 Warehouse Orders
 
 This table will store all of the orders that Amazon warehouses get, with each row representing a warehouse order. Warehouse orders are either entire normal Amazon orders or subsets of normal Amazon orders.
 
-warehouseOrderId: uuid	parentOrderId: uuid	warehouseId: uuid	orderStatus: enum	items: []{itemId, quantity}	shippingAddress: string
-...	                    ...	                ...	                ...	                ...	                        ...
+    warehouseOrderId: uuid	parentOrderId: uuid	warehouseId: uuid	orderStatus: enum	items: []{itemId, quantity}	shippingAddress: string
+    ...	                    ...	                ...	                ...	                ...	                        ...
 
 Warehouse Stock
 
 This table will store all of the item stocks in Amazon warehouses, with each row representing an {item, warehouse} pairing. The physicalStock field represents an item's actual physical stock in the warehouse in question, serving as a source of truth, while the availableStock field represents an item's effective available stock in the relevant warehouse; this stock gets decreased when orders are assigned to warehouses. See the Core Warehouse Functionality section for more details.
 
-itemId: uuid	warehouseId: uuid	physicalStock: integer	availableStock: integer
-...	            ...	                ...	                    ...
+    itemId: uuid	warehouseId: uuid	physicalStock: integer	availableStock: integer
+    ...	            ...	                ...	                    ...
 
 5. Core User Functionality
 
