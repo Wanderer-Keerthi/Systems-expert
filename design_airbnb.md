@@ -1,4 +1,5 @@
 1. Gathering System Requirements
+
 As with any systems design interview question, the first thing that we want to do is to gather system requirements; we need to figure out what system we're building exactly.
 
 We're designing the core system behind Airbnb, which allows hosts to create property listings and renters to browse through these listings and book them.
