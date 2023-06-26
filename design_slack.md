@@ -134,3 +134,4 @@ Since each Pub/Sub message comes with a timestamp, and since reading a channel a
 
 7. System Diagram
 
+![slack-system-diagram](slack-system-diagram.svg)
